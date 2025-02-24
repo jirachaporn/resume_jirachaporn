@@ -9,7 +9,7 @@ import ProfileImage from "./Left/ProfileImage";
 function Left() {
   return (
 
-    <div className="bg-[#545454] text-white w-full md:w-1/3 p-6 flex flex-col items-center justify-around">
+    <div className="bg-[#545454] text-white w-full xs:w-1/3 p-6 flex flex-col items-center justify-around">
         <ProfileImage />
         <Contact />
         <Skills />

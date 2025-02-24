@@ -9,7 +9,7 @@ import Education from "./Right/Education";
 function Right() {
 
     return (
-        <div className="w-full md:w-2/3 p-6">
+        <div className="w-full xs:w-2/3 p-6">
             <Name/>
             <Profile/>
             <Education/>
