@@ -4,6 +4,7 @@ import Profile from "./Right/Profile";
 import Name from "./Right/Name";
 import Experience from "./Right/Experience";
 import Education from "./Right/Education";
+import Project from "./Right/project";
 
 
 function Right() {
@@ -14,6 +15,8 @@ function Right() {
             <Profile/>
             <Education/>
             <Experience/>
+            <Project/>
+
         </div>
     );
 };
