@@ -10,13 +10,20 @@ function Skills() {
 
       <div className="mt-4">
         <ul className="ml-5 list-disc text-sm xs:text-base">
-          <li>Programming Languages</li>
-          <p>Python, HTML, CSS, Java, C, Javascript</p>
-          <li className="mt-5">ETC</li>
+          <li className="font-semibold">Programming Languages</li>
+            <p>Python, HTML, CSS, Java, C, Javascript, TypeScript, Dart</p>
+
+          <li className="mt-5 font-semibold">Frameworks & Libraries</li>
           <p>
-            Tailwind CSS, Bootstrap 5, GitHub, MySQL, React, Figma, Draw.io,
-            Unity, Android Studio, Node.js, Weka (Basic)
+            React, Angular, Node.js, Bootstrap 5, Tailwind CSS, Flutter
           </p>
+
+          <li className="mt-5 font-semibold">Tools & Platforms</li>
+          <p>
+            GitHub, MySQL, Figma, Draw.io, Unity, Android Studio, 
+            Weka (Basic), Postman, MongoDB 
+          </p>
+
         </ul>
       </div>
     </div>

@@ -33,7 +33,7 @@ function Contact() {
           <IoLogoGithub size={20} />
           <a
             href="https://github.com/jirachaporn"
-            className="ml-3 w-full break-all"
+            className="ml-3 w-full break-all hover:underline"
           >
             https://github.com/jirachaporn
           </a>

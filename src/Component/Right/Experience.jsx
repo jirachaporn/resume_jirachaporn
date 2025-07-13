@@ -4,9 +4,12 @@ function Experience() {
   return (
     <div className="mt-6">
       <div className="flex items-center">
-        <MdOutlineWork className="text-white bg-[#163853] rounded-full p-1" size={30} />
+        <div className="w-8 h-8 bg-[#163853] rounded-full flex items-center justify-center">
+          <MdOutlineWork className="text-white" size={20} />
+        </div>
         <h2 className="text-2xl font-bold text-[#2c559d] ml-3">EXPERIENCE</h2>
       </div>
+
 
       <div className=" list-disc border-b-4 border-[#163853]  mt-1"></div>
       <div>

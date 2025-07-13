@@ -4,7 +4,7 @@ function Profile() {
     return (
         <>
             <div className="flex flex-row ">
-                <FaUserCircle className="text-[#163853]" size={30} />
+                <FaUserCircle className="text-[#163853]" size={32} />
                 <h2 className="text-2xl font-bold text-[#2c559d]  ml-3">PROFILE</h2>
             </div>
             <div className="border-b-4 border-[#163853]  mt-1"></div>

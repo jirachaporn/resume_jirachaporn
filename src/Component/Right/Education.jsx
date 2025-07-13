@@ -5,7 +5,9 @@ function Education() {
 
         <div className="mt-6">
             <div className="flex items-center">
-                <BsMortarboardFill className="text-white bg-[#163853] rounded-full p-1" size={30} />
+                <div className="w-8 h-8 bg-[#163853] rounded-full flex items-center justify-center">
+                    <BsMortarboardFill className="text-white" size={22} />
+                </div>
                 <h2 className="text-2xl font-bold text-[#2c559d] ml-3">EDUCATION</h2>
             </div>
 

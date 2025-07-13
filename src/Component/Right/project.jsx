@@ -4,7 +4,10 @@ function Project() {
     return (
         <div className="mt-6">
             <div className="flex items-center">
-                <FaFolder className="text-white bg-[#163853] rounded-full p-1" size={30} />
+                <div className="w-8 h-8 bg-[#163853] rounded-full flex items-center justify-center">
+                    <FaFolder className="text-white" size={18} />
+                </div>
+
                 <h2 className="text-2xl font-bold text-[#2c559d] ml-3">PROJECT</h2>
             </div>
             <div className="border-b-4 border-[#163853]  mt-1"></div>
@@ -12,8 +15,19 @@ function Project() {
             <ul className="list-disc ml-6 mt-3 text-gray-800">
 
                 <li className="mt-4">
-                    <span className="font-semibold text-[#2c559d]">Frontend Web Design</span>
-                    <p className="font-semibold text-gray-600">Genetic Disease Risk Calculator</p>
+                    <span className="font-bold text-[#2c559d]">Frontend Web Design</span>
+                    <p className="font-semibold text-gray-600">
+                        <a
+                            href="https://jirachaporn.github.io/genetic_diseaserisk/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-gray-600 hover:underline"
+                        >
+                            Genetic Disease Risk Calculator
+                        </a>
+                    </p>
+
+
                     <p className="text-gray-600">
                         Designed and developed a web application that predicts
                         the likelihood of genetic diseases based on four simple inheritance
@@ -21,7 +35,17 @@ function Project() {
                     </p>
 
                     <div className=" mt-3">
-                        <p className="font-semibold text-gray-600">Event Music Selector</p>
+                        <p className="font-semibold text-gray-600">
+                            <a
+                                href="https://jirachaporn.github.io/EventMusicSelector/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-gray-600 hover:underline"
+                            >
+                                Event Music Selector
+                            </a>
+                        </p>
+
                         <p className="text-gray-600">
                             Developed a web application that recommends music playlists based on event themes such as weddings or ceremonies.
                             Built with React, Tailwind CSS, and Vite, integrated with the YouTube API,
@@ -33,7 +57,7 @@ function Project() {
 
 
                 <li className="mt-4">
-                    <span className="font-semibold text-[#2c559d]">Database System</span>
+                    <span className="font-bold text-[#2c559d]">Database System</span>
                     <p className="font-semibold text-gray-600">Admission Selection Database System of Kasetsart University, Kamphaeng Saen Campus</p>
                     <p className="text-gray-600">
                         Analyzed and designed a database system to support the student admission process,
@@ -43,7 +67,7 @@ function Project() {
                 </li>
 
                 <li className="mt-4">
-                    <span className="font-semibold text-[#2c559d]">System Analysis and Design</span>
+                    <span className="font-bold text-[#2c559d]">System Analysis and Design</span>
                     <p className="font-semibold text-gray-600">Knife Sharpening Service Information System</p>
                     <p className="text-gray-600">
                         Conducted system analysis and design for an online knife sharpening service.
